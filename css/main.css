@@ -1,7 +1,37 @@
 html {
   font-family: "Merriweather", serif;
+  margin: 0;
 }
 
-td {
-  padding-bottom: 4rem;
+.w1 {
+  padding-bottom: 8rem;
 }
+
+.w2 {
+  padding-bottom: 5.75rem;
+}
+
+.w3 {
+  padding-bottom: 3rem;
+}
+
+.w4 {
+  padding-bottom: 5.75rem;
+}
+
+.w5 {
+  padding-bottom: 5.75rem;
+}
+
+
+- *Typefaces:* `Merriweather`
+- *Corner radii:* `8px`
+- *Colours:*
+  - *Greys:* `#ccc`, `#666`, `#333`, `#f2f2f2`
+  - *Greens:* `#d1e0bf`, `#6b7e54`, `#51603f`
+  - *Reds:* `#f2bcbc`, `#b92828`, `#991919`
+  - *Blues:* `#d2d6f0`, `#1d38da`, `#38448e`
+- *Typografier settings:* defaults
+- *Modulifier settings:* select all
+
+---
