@@ -1,40 +1,59 @@
 html {
-  font-family: "Merriweather", serif;
-  margin: 0;
+  font-family: Merriweather, serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+}
+
+tbody td {
+  height: 9.5em;
 }
 
 main {
-  border-color: #f2f2f2
+  background-color: #fff;
 }
 
-p {
-  text-align: left;
-}
-
-.red {
+.event-holiday {
+  color: #b92828;
   background-color: #f2bcbc;
-  color: #991919;
-  border: 1px solid #b92828;
+  border: 1px solid #991919;
   border-radius: 8px;
 }
 
-.grey {
-  background-color: #f2f2f2;
+.event-notes {
   color: #333;
+  background-color: #f2f2f2;
   border: 1px solid #666;
   border-radius: 8px;
 }
 
-.green {
-  background-color: #d1e0bf;
+.event-notes-purple {
+  color: #38448e;
+  background-color: #d2d6f0;
+  border: 1px solid #1d38da;
+  border-radius: 8px;
+}
+
+.event-notes-green {
   color: #6b7e54;
+  background-color: #d1e0bf;
   border: 1px solid #51603f;
   border-radius: 8px;
 }
 
-.blue {
-  background-color: #d2d6f0;
-  color: #1d38da;
-  border: 1px solid #38448e;
-  border-radius: 8px;
+.day {
+  width: 6em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
 }
