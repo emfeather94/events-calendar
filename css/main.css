@@ -3,35 +3,38 @@ html {
   margin: 0;
 }
 
-.w1 {
-  padding-bottom: 8rem;
+main {
+  border-color: #f2f2f2
 }
 
-.w2 {
-  padding-bottom: 5.75rem;
+p {
+  text-align: left;
 }
 
-.w3 {
-  padding-bottom: 3rem;
+.red {
+  background-color: #f2bcbc;
+  color: #991919;
+  border: 1px solid #b92828;
+  border-radius: 8px;
 }
 
-.w4 {
-  padding-bottom: 5.75rem;
+.grey {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #666;
+  border-radius: 8px;
 }
 
-.w5 {
-  padding-bottom: 5.75rem;
+.green {
+  background-color: #d1e0bf;
+  color: #6b7e54;
+  border: 1px solid #51603f;
+  border-radius: 8px;
 }
 
-
-- *Typefaces:* `Merriweather`
-- *Corner radii:* `8px`
-- *Colours:*
-  - *Greys:* `#ccc`, `#666`, `#333`, `#f2f2f2`
-  - *Greens:* `#d1e0bf`, `#6b7e54`, `#51603f`
-  - *Reds:* `#f2bcbc`, `#b92828`, `#991919`
-  - *Blues:* `#d2d6f0`, `#1d38da`, `#38448e`
-- *Typografier settings:* defaults
-- *Modulifier settings:* select all
-
----
+.blue {
+  background-color: #d2d6f0;
+  color: #1d38da;
+  border: 1px solid #38448e;
+  border-radius: 8px;
+}
